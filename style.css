@@ -1,54 +1,60 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    text-align: center;
     background-color: #f9f9f9;
     color: #333;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
+
 header {
-    background-color: #ff4081;
+    background-color: #ff6680;
     color: white;
-    text-align: center;
-    padding: 2rem;
+    padding: 20px 0;
 }
+
 .poodle-image {
     width: 150px;
     height: auto;
-    margin-top: 1rem;
+    border-radius: 10px;
+    margin-top: 20px;
 }
-.about, .features, .invest, .buy {
-    padding: 2rem;
-    text-align: center;
+
+section {
+    padding: 20px;
 }
+
 h2 {
-    color: #ff4081;
+    color: #ff6680;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-li {
-    background: #eee;
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-}
+
 button {
-    background-color: #ff4081;
+    background-color: #ff6680;
     color: white;
     border: none;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 1rem;
     border-radius: 5px;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
+
 button:hover {
-    background-color: #e0356f;
+    background-color: #ff3366;
 }
+
 footer {
-    text-align: center;
-    padding: 1rem;
+    margin-top: 30px;
+    padding: 10px;
     background-color: #333;
     color: white;
+}
+
+footer a {
+    color: #ff6680;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
